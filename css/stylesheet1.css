@@ -1,8 +1,0 @@
-.container {
-  display: grid;
- text-align: center;
-  grid-template-rows: 150px;
-  grid-template-columns: repeat(3, 150px);
-  grid-column-gap: 25px;
-
-}
