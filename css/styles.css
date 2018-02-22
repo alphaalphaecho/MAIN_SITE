@@ -1,5 +1,5 @@
 .navbar-inverse {
-  background-color:#f4901e; border-color:#d5760a
+  background-color:#f4901e; border-color:#DD5900
 }
 .navbar-toggle
 {border-color:#665E57
@@ -28,9 +28,27 @@ body {
 
 .jumbotron .h1, .jumbotron h1 {
     color: #d5760a;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.jumbotron p {
+  font-size: .9em;
 }
 
 .navbar {
     border-top-width: 3px;
     border-bottom-width: 3px;
+}
+
+p {
+  color: #000;
+  margin-top: 15px;
+  line-height: 1.2;
+  font-size: 1.2em;
+}
+
+h2 {
+    color: #000;
+    margin: 0 0 10px 0;
 }
