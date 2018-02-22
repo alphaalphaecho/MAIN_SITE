@@ -17,23 +17,22 @@ body {
   font-size: 18px;
 }
 
-.active {
-  background-color: #FFD800;
-}
 
 .jumbotron {
     color: inherit;
     background-color: #eee;
 }
 
-.jumbotron .h1, .jumbotron h1 {
+.jumbotron h1 {
     color: #d5760a;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    padding: 16px 0 0 0;
+    margin-bottom: 3px;
+    font-size: 2.6em;
 }
 
 .jumbotron p {
-  font-size: .9em;
+  font-size: 1.3em;
+  margin-bottom: 4px;
 }
 
 .navbar {
@@ -48,7 +47,35 @@ p {
   font-size: 1.2em;
 }
 
+.iconfloat {
+  float: right;
+  padding-right: 132px;
+  white-space: nowrap;
+}
+
 h2 {
     color: #000;
     margin: 0 0 10px 0;
+}
+
+
+.imglogo {
+max-width: 100%;
+height: 175px;
+float: left;
+padding: 0 20px 20px 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+.navbar-toggle {
+    border: 2px solid #60602A;
+    border-radius: 4px;
+    background-color: #C1C155;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #FFD670;
 }
